@@ -1,6 +1,7 @@
 import 'dart:async';
 
 
+import 'package:otrujja/presentation/login/login.dart';
 import 'package:otrujja/presentation/main/main_view.dart';
 
 import '../resources/assets_manager.dart';
@@ -24,7 +25,7 @@ class _SplashViewState extends State<SplashView> {
 
   _goNext() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) =>const MainView()));
+        context, MaterialPageRoute(builder: (context) =>const LoginView()));
   }
 
   @override
@@ -50,7 +51,6 @@ class _SplashViewState extends State<SplashView> {
         ),
         child: Image.asset(
           ImageAssets.splashLogo,
-          scale: 1.5,
         ),
       ),
     );

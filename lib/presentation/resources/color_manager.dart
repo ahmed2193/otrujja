@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class ColorManager {
   static Color primary = HexColor.fromHex("#086654");
   static Color darkGrey = HexColor.fromHex("#525252");
-  static Color grey = HexColor.fromHex("#737477");
+  static Color grey = HexColor.fromHex("#7C908C");
+    static Color titleColor2 = HexColor.fromHex("#05332B");
+
   static Color background = HexColor.fromHex("#04144096");
   static Color black = HexColor.fromHex("#1D2D3A");
   static Color black1 = HexColor.fromHex("#000000");
@@ -20,7 +22,6 @@ class ColorManager {
   static Color headerColor3 = HexColor.fromHex("#DAAC46");
   static Color titleColor = HexColor.fromHex("#DAAC46");
   static Color titleColor1 = HexColor.fromHex("#4691DA");
-  static Color titleColor2 = HexColor.fromHex("#0A3F6C");
     static Color loadingColors = HexColor.fromHex("#f0f0f0");
 
   static Color loadingColor = HexColor.fromHex("#0A3F6C");

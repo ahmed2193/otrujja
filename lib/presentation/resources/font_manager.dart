@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FontConstants {
-  static const String fontFamily = "Almarai";
+  static const String fontFamily = "Nunito";
 }
 
 class FontWeightManager {

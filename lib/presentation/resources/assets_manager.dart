@@ -1,9 +1,14 @@
 const String iMAGE_PATH = "assets/images";
 
 class ImageAssets {
-  static const String splashLogo = "$iMAGE_PATH/Mask Group 97.png";
+  static const String splashLogo = "$iMAGE_PATH/splash_image.png";
   static const String logo = "$iMAGE_PATH/logo.png";
-  static const String profile = "$iMAGE_PATH/profile.png";
+    static const String backGroundImage = "$iMAGE_PATH/background.png";
+    static const String LoginImage = "$iMAGE_PATH/img.png";
+    static const String faceBookIcon = "$iMAGE_PATH/facebook_icon.png";
+    static const String twitterIcon = "$iMAGE_PATH/twitter_icon.png";
+    static const String gmailIcon = "$iMAGE_PATH/gmail_icon.png";
+
   // static const String playButton = "$iMAGE_PATH/playButton.svg";
   // static const String playButton1 = "$iMAGE_PATH/paly@2x.png";
   // static const String cat1 = "$iMAGE_PATH/cat-1.png";

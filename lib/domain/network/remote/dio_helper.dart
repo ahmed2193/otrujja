@@ -9,6 +9,8 @@ class DioHelper {
     dio = Dio(
       BaseOptions(
         receiveDataWhenStatusError: true,
+        baseUrl: "https://midadeacademy.com/api/v1/",
+
         // maxRedirects: 00,
         // connectTimeout:60* 1000,
         // receiveTimeout:60* 1000,
@@ -35,8 +37,11 @@ class DioHelper {
     required Map<String, dynamic> data,
     Map<String, dynamic>? query,
   }) async {
-    dio.options.headers = {};
-
+    dio.options.headers = {
+      'APIKEY': 'VjrUsuCGrl7iGH3bkZs3JJjF7cgdY7YU',
+      'APILang': 'ar',
+      'X-Requested-With': 'XMLHttpRequest'
+    };
     return dio.post(
       url,
       queryParameters: query,
@@ -50,7 +55,9 @@ class DioHelper {
     Map<String, dynamic>? query,
   }) async {
     dio.options.headers = {
-      'Content-Type': 'application/json',
+      'APIKEY': 'VjrUsuCGrl7iGH3bkZs3JJjF7cgdY7YU',
+      'APILang': 'ar',
+      'X-Requested-With': 'XMLHttpRequest'
     };
 
     return dio.put(
